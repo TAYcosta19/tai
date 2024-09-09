@@ -77,81 +77,80 @@ const perguntas = [[
     }], [
     //Judô
     {
-        enunciado: "Você está no início da luta. Qual é sua primeira técnica?",
+        enunciado: "Você está começando a separar seu lixo. Qual é o primeiro passo?",
         alternativas: [
             {
-                texto: "Um golpe de ippon seoi nage (arremesso por cima do ombro).",
-                afirmacao: "Você executa um ippon seoi nage perfeitamente, derrubando seu oponente com um golpe limpo. Ponto completo para você!",
+                texto: "Separar papel e papelão dos demais resíduos.",
+                afirmacao: "Você faz uma boa separação, garantindo que o papel e o papelão sejam reciclados corretamente. Ponto completo para você!",
                 pontos: 1
             },
             {
-                texto: "Um golpe de ouchi gari (rasteira interna).",
-                afirmacao: "Você tenta um ouchi gari, mas seu oponente consegue se equilibrar e evitar a queda. Nenhum ponto marcado.",
+                texto: "Misturar todos os resíduos no mesmo saco.",
+                afirmacao: "Você misturou os resíduos, o que pode dificultar o processo de reciclagem. Nenhum ponto marcado.",
                 pontos: 0
             }
         ]
     },
     {
-        enunciado: "Seu oponente tenta um ataque. Como você responde?",
+        enunciado: "Você tem uma embalagem plástica que quer descartar. O que você faz?",
         alternativas: [
             {
-                texto: "Usa uma técnica de contra-ataque (kaeshi waza).",
-                afirmacao: "Seu contra-ataque foi eficaz, derrubando seu oponente e ganhando um wazari (meio ponto).",
+                texto: "Enxágua a embalagem e a coloca na lixeira de recicláveis.",
+                afirmacao: "Você fez a coisa certa ao limpar a embalagem e reciclá-la corretamente. Meio ponto para você.",
                 pontos: 1
             },
             {
-                texto: "Defende o ataque e se afasta.",
-                afirmacao: "Você defende com sucesso, mas não marca pontos.",
+                texto: "Joga a embalagem diretamente no lixo comum.",
+                afirmacao: "Você descartou a embalagem no lixo comum, o que não contribui para a reciclagem. Nenhum ponto marcado.",
                 pontos: 0
             }
         ]
     },
     {
-        enunciado: "Você está no chão, em ne-waza (técnicas de solo). Qual é sua próxima ação?",
+        enunciado: "Você está em casa e quer descartar uma lata de alumínio. Qual é sua próxima ação?",
         alternativas: [
             {
-                texto: "Tenta um estrangulamento (shime waza).",
-                afirmacao: "Você aplica um estrangulamento eficaz, forçando seu oponente a desistir. Ponto completo para você!",
+                texto: "Amassa a lata e a coloca na lixeira de recicláveis.",
+                afirmacao: "Você amassou a lata para economizar espaço e a reciclou corretamente. Ponto completo para você!",
                 pontos: 1
             },
             {
-                texto: "Tenta um imobilização (osaekomi waza).",
-                afirmacao: "Você consegue imobilizar seu oponente, mas ele escapa antes de você garantir a pontuação máxima. Meio ponto para você.",
-                pontos: 1
-            }            
-        ]
-    },
-    {
-        enunciado: "Você está de pé novamente, o que você faz?",
-        alternativas: [
-            {
-                texto: "Executa um harai goshi (arremesso com a perna varrendo).",
-                afirmacao: "Seu harai goshi foi bem executado, derrubando seu oponente com um golpe limpo. Ponto completo para você!",
-                pontos: 1
-            },
-            {
-                texto: "Tenta um kouchi gari (rasteira menor).",
-                afirmacao: "Seu kouchi gari foi bloqueado pelo seu oponente. Nenhum ponto marcado.",
+                texto: "Deixa a lata intacta e a coloca no lixo comum.",
+                afirmacao: "Você não reciclou a lata corretamente, o que pode impactar o processo de reciclagem. Nenhum ponto marcado.",
                 pontos: 0
             }
         ]
     },
     {
-        enunciado: "Seu oponente está tentando te imobilizar. Como você reage?",
+        enunciado: "Você está organizando seu material reciclável. O que você faz para garantir uma boa separação?",
         alternativas: [
             {
-                texto: "Usa uma técnica de escape (hikkomi gaeshi).",
-                afirmacao: "Você usa hikkomi gaeshi para escapar da imobilização e contra-atacar. Meio ponto para você.",
+                texto: "Classifica os recicláveis em categorias como vidro, plástico, metal e papel.",
+                afirmacao: "Você fez uma excelente separação dos materiais recicláveis, facilitando o processo de reciclagem. Ponto completo para você!",
                 pontos: 1
             },
             {
-                texto: "Tenta resistir à imobilização.",
-                afirmacao: "Você resiste à imobilização, mas não consegue escapar completamente. Nenhum ponto marcado.",
+                texto: "Mistura todos os tipos de recicláveis em um único saco.",
+                afirmacao: "Você misturou os materiais recicláveis, o que pode dificultar a triagem e o processo de reciclagem. Nenhum ponto marcado.",
+                pontos: 0
+            }
+        ]
+    },
+    {
+        enunciado: "Você está lidando com uma pilha de baterias usadas. Como você procede?",
+        alternativas: [
+            {
+                texto: "Leva as baterias a um ponto de coleta especializado em reciclagem de baterias.",
+                afirmacao: "Você encaminhou as baterias para o local adequado, contribuindo para a reciclagem correta. Meio ponto para você.",
+                pontos: 1
+            },
+            {
+                texto: "Descarte as baterias no lixo comum.",
+                afirmacao: "Você descartou as baterias de forma inadequada, o que pode causar danos ao meio ambiente. Nenhum ponto marcado.",
                 pontos: 0
             }
         ]
     }
-    ], [ 
     //Surfe
     {
         enunciado: "Você está se preparando para pegar a primeira onda da bateria. Qual é sua estratégia?",
